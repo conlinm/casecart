@@ -1,0 +1,610 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"bor",
+				"border-bottom-color"
+			],
+			[
+				"bord",
+				"border-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"set",
+				"setAnswer"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"qu",
+				"questData	{}"
+			],
+			[
+				"nam",
+				"name_last	(?)"
+			],
+			[
+				"na",
+				"name_last	(?)"
+			],
+			[
+				"local",
+				"localhost"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Markdown Preview/Markdown.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: temp",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"late",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: html",
+				"Snippet: bs3-html5-template"
+			],
+			[
+				"Snippet: htm",
+				"Snippet: bs3-thumbnail"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"P",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Marked"
+			],
+			[
+				"Marke",
+				"Marked"
+			],
+			[
+				"m",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"tool",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"git pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 284.0,
+		"history":
+		[
+			"view.settings().get('tab_size')",
+			"view.settings().get('tabSize')",
+			"view.options().get('tabSize')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/conlinm/casecart"
+	],
+	"file_history":
+	[
+		"/Users/conlinm/Desktop/pinit.js",
+		"/Users/conlinm/Dropbox/Research-Garzotto studies/20150506Master20analysis.log",
+		"/Users/conlinm/ghost/content/themes/alpha/post.hbs",
+		"/Users/conlinm/Dropbox/Ghost themes/alpha/post.hbs",
+		"/Users/conlinm/Desktop/blogTest.html",
+		"/Users/conlinm/Desktop/blogTest.md",
+		"/Users/conlinm/Dropbox/Research-VINCI va data studies/surgicalDataScience.txt",
+		"/Users/conlinm/Dropbox/Research-VINCI va data studies/MasterLog.sql",
+		"/Users/conlinm/Dropbox/Writings/personalStatement.md",
+		"/Users/conlinm/Dropbox/Writings/underAttck.md",
+		"/Users/conlinm/Dropbox/Ghost themes/alpha/assets/css/screen.css",
+		"/Users/conlinm/Dropbox/Ghost themes/alpha/assets/css/custom.css",
+		"/Users/conlinm/Dropbox/ConlinSubmissionForBagleyGrasso/TexFiles/ConlinDutyforBagleyGrasso.tex",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/Git 2.4.0 Mavericks Intel Universal/setup git PATH for non-terminal programs.sh",
+		"/Users/conlinm/Dropbox/SurveillanceURS/SurveillanceTex/ConlinDutyforBagleyGrasso.tex",
+		"/Users/conlinm/Dropbox/DREAM Challenge/CoreTable_training.csv",
+		"/Users/conlinm/Desktop/test.log",
+		"/Users/conlinm/Dropbox/text/pressureWasherInstruction.md",
+		"/Users/conlinm/Dropbox/Ghost themes/plainly-master/README.md",
+		"/Users/conlinm/Dropbox/michael.conlin/mc.css",
+		"/Users/conlinm/Dropbox/michael.conlin/index.html",
+		"/Users/conlinm/Dropbox/michael.conlin/service.html",
+		"/Users/conlinm/Dropbox/michael.conlin/scholar.html",
+		"/Users/conlinm/Dropbox/michael.conlin/edu.html",
+		"/Users/conlinm/Dropbox/michael.conlin/bio.html",
+		"/Users/conlinm/Dropbox/michael.conlin/teaching.html",
+		"/Users/conlinm/Dropbox/michael.conlin/hello.js",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/comment.sublime-snippet",
+		"/Users/conlinm/Dropbox/OSTCourses/conlincv.html",
+		"/Users/conlinm/Dropbox/michael.conlin/projects.html",
+		"/Users/conlinm/Dropbox/OSTCourses/lab12obj1.css",
+		"/Users/conlinm/Dropbox/OSTCourses/lab12obj1.html",
+		"/Users/conlinm/Dropbox/OSTCourses/tables.html",
+		"/Users/conlinm/Dropbox/OSTCourses/tables.css",
+		"/Users/conlinm/Dropbox/OSTCourses/gandhi.html",
+		"/Users/conlinm/Dropbox/OSTCourses/gandhi.css",
+		"/Users/conlinm/Dropbox/OSTCourses/hotdogform.html",
+		"/Users/conlinm/Dropbox/OSTCourses/UroTest.html",
+		"/Users/conlinm/Dropbox/OSTCourses/UroTest.css",
+		"/Users/conlinm/Dropbox/OSTCourses/testForm.html",
+		"/Users/conlinm/Dropbox/OSTCourses/layout.html",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/html5",
+		"/Users/conlinm/Dropbox/SurveillanceURS/SurveillanceTex/ConlinDutyforBagleyGrasso_backup.tex",
+		"/Users/conlinm/Dropbox/SurveillanceURS/ConlinDutyforBagleyGrasso.tex",
+		"/Users/conlinm/Dropbox/Writings/seanpowell-Email-Boilerplate-c3465c0/residentEmailViaTemplate.html",
+		"/Users/conlinm/Dropbox/Writings/resEmail.html",
+		"/Users/conlinm/Dropbox/Writings/NWUSemail.html",
+		"/Users/conlinm/Dropbox/Writings/ResidentEmail.html",
+		"/Users/conlinm/Dropbox/Writings/residentEmail.md",
+		"/Users/conlinm/Dropbox/Writings/seanpowell-Email-Boilerplate-c3465c0/README.markdown",
+		"/Users/conlinm/Downloads/solarized/iterm2-colors-solarized/README.md",
+		"/Users/conlinm/Downloads/solarized/osx-terminal.app-colors-solarized/README.md",
+		"/Users/conlinm/Dropbox/CV/conlincv.tex",
+		"/Users/conlinm/Dropbox/Writings/personalStatement.markdown",
+		"/Users/conlinm/Dropbox/Writings/amblinNew.work.css",
+		"/Users/conlinm/Dropbox/Writings/SeniorPastorJobDescription.md",
+		"/Users/conlinm/VINCIsqlScripts/createEveryPSA.sql",
+		"/Users/conlinm/VINCIsqlScripts/deleteFreePSA.sql",
+		"/Users/conlinm/VINCIsqlScripts/HeightWeightCreate.sql",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/Users/conlinm/VINCIsqlScripts/createBackup.sql",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/SQL.sublime-settings",
+		"/Users/conlinm/VINCIsqlScripts/PatientRaceCreate.sql",
+		"/Users/conlinm/VINCIsqlScripts/AgeJoinProcedureDate.sql",
+		"/Users/conlinm/Dropbox/Writings/emailToNWUS.markdown",
+		"/Users/conlinm/Dropbox/Writings/newGuidelineEmail.md",
+		"/Users/conlinm/famous-starter-kit/reference-tutorials/slideshow/start/src/main.js",
+		"/Users/conlinm/famous-starter-kit/reference-tutorials/slideshow/start/index.html",
+		"/Users/conlinm/famous-starter-kit/reference-tutorials/slideshow/start/src/views/AppView.js",
+		"/Users/conlinm/famous-starter-kit/reference-tutorials/slideshow/start/src/views/EmptyView.js",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/conlinm/myapp/client/myapp.js",
+		"/Users/conlinm/uroquiz/smart.lock",
+		"/Users/conlinm/uroquiz/smart.json",
+		"/Users/conlinm/uroquiz/client/views/image_diaplay.html",
+		"/Users/conlinm/uroquiz/client/views/quest_page.html",
+		"/Users/conlinm/uroquiz/client/views/untitled",
+		"/Users/conlinm/uroquiz/client/views/loading.html",
+		"/Users/conlinm/uroquiz/client/views/layout.html",
+		"/Users/conlinm/uroquiz/client/views/answer.js",
+		"/Users/conlinm/uroquiz/lib/router.js",
+		"/Users/conlinm/uroquiz/client/views/quest_item.html",
+		"/Users/conlinm/uroquiz/client/views/layout.js",
+		"/Users/conlinm/uroquiz/client/stylesheets/uroquiz.css",
+		"/Users/conlinm/uroquiz/client/quest_list.js",
+		"/Users/conlinm/uroquiz/collections/questions.js",
+		"/Users/conlinm/uroquiz/client/views/home.html",
+		"/Users/conlinm/uroquiz/server/publications.js",
+		"/Users/conlinm/uroquiz/packages/bootstrap-3/bootstrap-3/fonts/glyphicons-halflings-regular.svg",
+		"/Users/conlinm/uroquiz/.meteor/local/build/programs/client/packages/global-imports.js",
+		"/Users/conlinm/uroquiz/.meteor/local/build/programs/ctl/node_modules/npm/lib/utils/is-git-url.js",
+		"/Users/conlinm/uroquiz/.gitignore",
+		"/Users/conlinm/uroquiz/README",
+		"/Users/conlinm/uroquiz/git/test-delta.c",
+		"/Users/conlinm/uroquiz/client/views/quest_list.html",
+		"/Users/conlinm/uroquiz/uroquiz.html",
+		"/Users/conlinm/uroquiz/client/main.html",
+		"/Users/conlinm/uroquiz/client/main.js",
+		"/Users/conlinm/uroquiz/uroquiz.css",
+		"/Users/conlinm/uroquiz/uroquiz.js",
+		"/Users/conlinm/myapp/server/server.js",
+		"/Users/conlinm/myapp/client/myapp.html",
+		"/Users/conlinm/demonstration/server/server.js",
+		"/Users/conlinm/demonstration/client/templates/homepage.html",
+		"/Users/conlinm/demonstration/client/templates/calendar.html",
+		"/Users/conlinm/demonstration/client/templates/menu.html",
+		"/Users/conlinm/demonstration/client/demonstration.html",
+		"/Users/conlinm/demonstration/client/demonstration.js",
+		"/Users/conlinm/demonstration/calendar.html",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/template.sublime-snippet",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/Users/conlinm/demonstration/client/mike.html",
+		"/Users/conlinm/stentlist/stentlist.html",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/each.sublime-snippet",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/html-p.sublime-snippet",
+		"/Users/conlinm/stentlist/stentlist.js",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/okcancel.sublime-snippet",
+		"/Users/conlinm/microscope/main.html",
+		"/var/folders/bx/j_r480qd4cq5d92gj8822jw40000gn/T/sublime-sftp-browse-1390785792/discoverMeteor/microscope/collections/posts.js",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/discoverMeteor",
+		"/Users/conlinm/Dropbox/settings",
+		"/Users/conlinm/microscope/collections/posts.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mufti",
+			"munoz",
+			"•",
+			"*",
+			"·",
+			"•",
+			"</span>",
+			"align=\"left\"",
+			"&amp;",
+			"</p>",
+			"<p>",
+			"&amp;",
+			"strong",
+			"</p>",
+			"<p>",
+			"</p>",
+			"<p>",
+			"</p>",
+			"<p>",
+			"</p>",
+			"<p>",
+			"</p>",
+			"<p>",
+			"</p>",
+			"<p>",
+			"p",
+			"P",
+			"p",
+			"strong",
+			"2011",
+			"search",
+			"radio",
+			"4",
+			"3",
+			"2",
+			"level",
+			"1",
+			"h1",
+			"1",
+			"first_name",
+			"title",
+			"EmptyView",
+			"left: 50%",
+			"css",
+			"left: 50%",
+			"modal",
+			"img",
+			"thumbnail",
+			"modal-dialog",
+			",",
+			"A",
+			"primary",
+			"default",
+			"button",
+			"default",
+			"class",
+			"A",
+			"div",
+			"question",
+			"post",
+			"Microscope",
+			"”",
+			"“",
+			"Kodama",
+			"Vancouver",
+			"%",
+			"\\n",
+			"post",
+			"posts",
+			"Microscope",
+			"post",
+			"Luiuc",
+			"span"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 352.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 154.0
+	},
+	"output.git-commit":
+	{
+		"height": 115.0
+	},
+	"output.markdown":
+	{
+		"height": 166.0
+	},
+	"output.sftp":
+	{
+		"height": 212.0
+	},
+	"pinned_build_system": "",
+	"project": "casecart.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

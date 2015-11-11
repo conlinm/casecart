@@ -1,0 +1,34 @@
+<head>
+  <title>CaseCart</title>
+</head>
+
+<body>
+<h1>CaseCart</h1>
+	<div class="container">
+		<header>
+			<h1>Surgeons</h1>
+
+		</header>
+		<ul>
+			{{# each surgeons}}
+			{{> tempSurgeon}}
+			{{/each}}
+		</ul>
+		<h4>New Surgeon</h4>
+		{{> addSurgeonForm}}
+
+	</div>
+ 
+</body>
+
+<template name="tempSurgeon">
+  <li>{{firstName}}{{lastName}}</li>
+</template>
+
+<template name="addSurgeonForm">
+	<form class="new-surgeon">
+			<input type="text" name="firstName" placeholder="First Name" />
+			<input type="text" name="lastName" placeholder="Last Name" />
+			<input type="submit" value="Add Surgeon">
+		</form>
+</template>
