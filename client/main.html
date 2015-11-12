@@ -1,0 +1,25 @@
+<head>
+  <title>CaseCart</title>
+</head>
+
+<body>
+	<div class="container">
+		<header class="navbar navbar-default" role="navigation">
+		<div class="navbar-header">
+		<a class="navbar-brand" href="/">CaseCart</a>
+		</div>
+		</header>
+		<h4>Find a Surgeon</h4>
+		{{> searchTemp}}
+		<ul>
+			{{# each surgeons}}
+			{{> tempSurgeon}}
+			{{/each}}
+		</ul>
+		<h4>New Surgeon</h4>
+		{{> addSurgeonForm}}
+
+	</div>
+ 
+</body>
+
