@@ -6,7 +6,7 @@
 	<form class="new-surgeon">
 			<input type="text" name="firstName" placeholder="First Name" />
 			<input type="text" name="lastName" placeholder="Last Name" />
-			<input type="submit" value="Add Surgeon">
+			<input type="submit" value="Add">
 		</form>
 </template>
 
@@ -16,4 +16,36 @@
 		    - or -   
 		<input type="text" name="Specialty" placeholder="Specialty" />
 	</form>
+</template>
+
+<template name="layout">
+	<div class="container">
+		<header class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="{{pathFor 'tempSearchMain'}}">CaseCart</a>
+			</div>
+		</header>
+		<div id="main">
+			{{> yield}}
+		</div>
+ 	</div>
+</template>
+
+<template name="tempSearchMain">
+	<div class="search">
+		<h4>Find a Surgeon</h4>
+			{{> tempSearch}}
+		<ul>
+			{{# each surgeons}}
+			{{> tempSurgeon}}
+			{{/each}}
+		</ul>
+	</div>
+</template>	
+
+<template name="tempAddSurgeon">	
+	<div class="newSurgeon">
+		<h4>New Surgeon</h4>
+		{{> tempAddSurgeonForm}}
+	</div>
 </template>
