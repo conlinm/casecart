@@ -5,20 +5,23 @@
 <body>
 	<div class="container">
 		<header class="navbar navbar-default" role="navigation">
-		<div class="navbar-header">
-		<a class="navbar-brand" href="/">CaseCart</a>
-		</div>
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">CaseCart</a>
+			</div>
 		</header>
+	<div class="search">
 		<h4>Find a Surgeon</h4>
-		{{> searchTemp}}
+		{{> tempSearch}}
 		<ul>
 			{{# each surgeons}}
 			{{> tempSurgeon}}
 			{{/each}}
 		</ul>
+	</div>
+	<div class="newSurgeon">
 		<h4>New Surgeon</h4>
-		{{> addSurgeonForm}}
-
+		{{> tempAddSurgeonForm}}
+	</div>
 	</div>
  
 </body>

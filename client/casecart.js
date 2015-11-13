@@ -1,4 +1,4 @@
-Surgeons = new Mongo.Collection("surgeons")
+
 
 if (Meteor.isClient) {
   // This code is only run on the client
