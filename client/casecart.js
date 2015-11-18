@@ -3,9 +3,9 @@
 if (Meteor.isClient) {
   // This code is only run on the client
 
-  Template.body.helpers({
-    surgeons: function () {
-      return Surgeons.find({});
+  Template.tempSearchMain.helpers({
+    specialty: function () {
+      return Specialty.find({});
     }
   });
   Template.body.events({"submit.new-surgeon": function(event){
