@@ -1,0 +1,32 @@
+<template name="tempAddSurgeon"> 
+<h4>Add Surgeon</h4> 
+  <form class="form-horizontal" id="formAddSurgeon">
+    <div class="form-group">
+      <label for="firstName" class="col-sm-2 control-label">First Name</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="lastName" class="col-sm-2 control-label">Last Name</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+      </div>
+    </div>
+    <div class="form-group">
+       <label for="specialtySelect" class="col-sm-2 control-label">Specialty</label>
+      <div class="col-sm-4">
+        <select class="form-control" id="specialtySelect" name="specialty">
+          {{# each specialty}}
+            <option>{{name}}</option>
+          {{/each}}
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+    </div>  
+    </form>
+</template>

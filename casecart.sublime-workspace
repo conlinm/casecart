@@ -135,41 +135,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "client/main.html",
-			"settings":
-			{
-				"buffer_size": 415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/* CSS declarations go here */\n",
-			"file": "casecart.css",
-			"file_size": 31,
-			"file_write_time": 130917561710000000,
-			"settings":
-			{
-				"buffer_size": 31,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/casecart.js",
-			"settings":
-			{
-				"buffer_size": 859,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/templates.html",
-			"settings":
-			{
-				"buffer_size": 555,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -333,9 +298,14 @@
 	],
 	"file_history":
 	[
+		"/Users/conlinm/casecart/client/templates.html",
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/conlinm/casecart/lib/router.js",
+		"/Users/conlinm/casecart/client/casecart.js",
+		"/Users/conlinm/casecart/client/main.html",
+		"/Users/conlinm/casecart/casecart.css",
 		"/Users/conlinm/casecart/casecart.js",
 		"/Users/conlinm/casecart/main.html",
-		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/conlinm/Desktop/pinit.js",
 		"/Users/conlinm/Dropbox/Research-Garzotto studies/20150506Master20analysis.log",
 		"/Users/conlinm/ghost/content/themes/alpha/post.hbs",
@@ -455,12 +425,7 @@
 		"/Users/conlinm/demonstration/client/mike.html",
 		"/Users/conlinm/stentlist/stentlist.html",
 		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/each.sublime-snippet",
-		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/html-p.sublime-snippet",
-		"/Users/conlinm/stentlist/stentlist.js",
-		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/okcancel.sublime-snippet",
-		"/Users/conlinm/microscope/main.html",
-		"/var/folders/bx/j_r480qd4cq5d92gj8822jw40000gn/T/sublime-sftp-browse-1390785792/discoverMeteor/microscope/collections/posts.js",
-		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/discoverMeteor"
+		"/Users/conlinm/Library/Application Support/Sublime Text 3/Packages/User/html-p.sublime-snippet"
 	],
 	"find":
 	{
@@ -570,131 +535,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "client/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								274,
-								274
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "casecart.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								31
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "client/casecart.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 859,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/templates.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 555,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								555,
-								555
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
