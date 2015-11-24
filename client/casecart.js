@@ -36,11 +36,12 @@ if (Meteor.isClient) {
       return MedClass.find({}, {sort: {name: 1}});
     }
   });
-  Template.tempSpecialtyRule.helpers({
-    specilaty: function(){
-      return Specialty.findOne(this.params._id)
+  Template.tempSpecialtyPage.helpers({
+    rules: function(){
+      var currentID = this._id;
+      return Rules.find({specialtyID: currentID})
     }
-  })
+  });
   //EVENTS
   //AddSurgeon Events
   Template.tempAddSurgeon.events({"submit #formAddSurgeon": function(event){
@@ -51,12 +52,14 @@ if (Meteor.isClient) {
       var firstName = event.target.firstName.value;
       var lastName = event.target.lastName.value;
       var specialty = event.target.specialty.value;
+      var specialtyID = 
 
       //insert a surgeon into the collection
       Surgeons.insert({
         firstName: firstName,
         lastName: lastName,
         specialty: specialty,
+        specialtyID: specialtyID,
         createdAt: new Date() //current time and date
       });
 
@@ -108,14 +111,17 @@ if (Meteor.isClient) {
       event.preventDefault();
 
       //get value from form element
-      var specialty = event.target.specialty.value
+      var specialty = event.target.specialty.value;
       var medClass = event.target.medClass.value;
       var rule = event.target.rule.value;
-      ;
+      var specialtyIDObject = Specialty.findOne({name: specialty}, {name: 0});
+      var specialtyID = specialtyIDObject._id;
 
-      //insert a surgeon into the collection
-      Specialty.update(this.name, {
-        medClass: rule,
+      //insert a rule into the collection
+      Rules.insert({
+        medClass: medClass,
+        rule: rule,
+        specialtyID: specialtyID,
         createdAt: new Date() //current time and date
       });
 
@@ -123,6 +129,24 @@ if (Meteor.isClient) {
       event.target.specialty.value = "",
       event.target.medClass.value = "",
       event.target.rule.value = "";
+
+  }});
+  //AddRole Events
+  Template.tempAddRole.events({"submit #formAddRole": function(event){
+      //prevent default browser form submit
+      event.preventDefault();
+
+      //get value from form element
+      var role = event.target.role.value;
+
+      //insert a surgeon into the collection
+      Role.insert({
+        roleName: role,
+        createdAt: new Date() //current time and date
+      });
+
+      //clear form
+      event.target.role.value = "";
 
   }});
 }

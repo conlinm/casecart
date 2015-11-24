@@ -1,10 +1,10 @@
 <template name="tempSpecialtyPage">
   <div class="specialty-page page">
-        <p>
-          Testing
-        </p>
-        {{#with tempSpecialtyPage}}
+        <h2>{{name}}</h2>
+        <h4>Perioperative Anticoagulation Preferences</h4>
+        <hr>
+        {{#each rules}}
         {{> tempSpecialtyRule}}
-        {{/with}}
+        {{/each}}
   </div>
 </template>
