@@ -1,1 +1,12 @@
 /* CSS declarations go here */
+a {
+	color: black;
+}
+a:hover {
+	background-color: yellow;
+}
+a:link { 
+    cursor: auto;
+    text-decoration: none;
+    color: black;
+}
