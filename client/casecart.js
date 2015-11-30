@@ -27,15 +27,18 @@ if (Meteor.isClient) {
   });
   //AddException Helpers
   Template.tempAddException.helpers({
+    specialty: function () {
+      return Specialty.find({}, {sort: {name: 1}});
+    },
     surgeon: function () {
-      return Surgeons.find({}, {sort: {lastName: 1}});
-    }
-  });
-  Template.tempAddException.helpers({
+      var currentSpecialty = Session.get("sessionSpecialty")
+      return Surgeons.find({specialty: currentSpecialty}, {sort: {lastName: 1}});
+    },
     medClass: function () {
       return MedClass.find({}, {sort: {name: 1}});
     }
   });
+  
   Template.tempSpecialtyPage.helpers({
     rules: function(){
       var currentID = this._id;
@@ -52,7 +55,8 @@ if (Meteor.isClient) {
       var firstName = event.target.firstName.value;
       var lastName = event.target.lastName.value;
       var specialty = event.target.specialty.value;
-      var specialtyID = 
+      var specialtyIDObject = Specialty.findOne({name: specialty}, {name: 0});
+      var specialtyID = specialtyIDObject._id; 
 
       //insert a surgeon into the collection
       Surgeons.insert({
@@ -131,6 +135,43 @@ if (Meteor.isClient) {
       event.target.rule.value = "";
 
   }});
+    Template.tempAddException.events({"change #specialtySelect": function(event){
+      event.preventDefault();
+      // note! below. Needs to be just event.target.value, not the named form elemen
+      // since I am taking the value only from the one "#specialtySelect" dom element
+      var currentSpecialty = event.target.value;
+      Session.set("sessionSpecialty", currentSpecialty);
+  },
+  "submit #formAddException": function(event){
+      //prevent default browser form submit
+      event.preventDefault();
+///fix below this/////////////////////
+      //get value from form element
+      var surgeonLastName = event.target.surgeonLastName.value;
+      var specialty = event.target.specialty.value;
+      var medClass = event.target.medClass.value;
+      var exception = event.target.exception.value;
+      var surgeonIDObject = Surgeons.findOne({lastName: surgeonLastName}, {name: 0});
+      var specialtyID = specialtyIDObject.specialtyID;
+
+      //insert a rule into the collection
+      Rules.insert({
+        surgeonLastName: surgeonLastName,
+        medClass: medClass,
+        rule: rule,
+        specialtyID: specialtyID,
+        createdAt: new Date() //current time and date
+      });
+
+      //clear form
+      event.target.specialty.value = "",
+
+      event.target.medClass.value = "",
+      event.target.rule.value = "";
+
+  },
+  
+});
   //AddRole Events
   Template.tempAddRole.events({"submit #formAddRole": function(event){
       //prevent default browser form submit

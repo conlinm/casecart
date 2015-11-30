@@ -1,15 +1,6 @@
 <template name="layout">
   <div class="container">
-    <header class="navbar navbar-default" role="navigation">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="{{pathFor 'tempSearchMain'}}">CaseCart</a>
-      </div>
-      <div class="collapse navbar-collapse" id="navigation">
-      <ul class="nav navbar-nav navbar-right">
-        {{> loginButtons}}
-      </ul>
-      </div>
-    </header>
+    {{> header}}
     <div id="main">
       {{> yield}}
     </div>

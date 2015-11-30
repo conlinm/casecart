@@ -1,17 +1,29 @@
 <template name="tempAddException">
 <form class="form-horizontal" id="formAddException">
 <h4>Add Exception</h4>
+<!-- choose a specialty -->
   <div class="form-group">
+       <label for="specialtySelect" class="col-sm-2 control-label">Specialty</label>
+      <div class="col-sm-4">
+        <select class="form-control" id="specialtySelect" name="specialty">
+          {{# each specialty}}
+            <option>{{name}}</option>
+          {{/each}}
+        </select>
+      </div>
+    </div>
+    <!-- choose surgeon -->
+    <div class="form-group">
        <label for="surgeonSelect" class="col-sm-2 control-label">Surgeon</label>
       <div class="col-sm-4">
         <select class="form-control" id="surgeonSelect" name="surgeon">
           {{# each surgeon}}
-            <option>{{firstName}} {{lastName}}</option>
+            <option>{{lastName}}</option>
           {{/each}}
         </select>
       </div>
     </div> 
-  
+  <!-- Choose medclass -->
     <div class="form-group">
       <label for="medClass" class="col-sm-2 control-label">Medication Class</label>
       <div class="col-sm-4">
@@ -22,13 +34,14 @@
         </select>
       </div>
     </div>
+    <!-- choose Rule -->
     <div class="form-group">
       <label for="rule" class="col-sm-2 control-label">Rule</label>
       <div class="col-sm-4">
         <input type="text" class="form-control" id="rule" name="rule" placeholder="Rule">
       </div>
     </div>
-    
+    <!-- submit button -->
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit" class="btn btn-primary">Add</button>

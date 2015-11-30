@@ -1,7 +1,9 @@
 <template name="tempSearchMain">
   <div class="search">
+  {{#if currentUser}}
       {{# each specialty}}
         {{> tempSpecialty}}
       {{/each}}
+  {{/if}}    
   </div>
 </template> 
