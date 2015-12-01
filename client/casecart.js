@@ -43,6 +43,10 @@ if (Meteor.isClient) {
     rules: function(){
       var currentID = this._id;
       return Rules.find({specialtyID: currentID})
+    },
+    exceptions: function(){
+      var currentID = this._id;
+      return Exceptions.find({specialtyID: currentID})
     }
   });
   //EVENTS
@@ -145,17 +149,16 @@ if (Meteor.isClient) {
   "submit #formAddException": function(event){
       //prevent default browser form submit
       event.preventDefault();
-///fix below this/////////////////////
       //get value from form element
-      var surgeonLastName = event.target.surgeonLastName.value;
+      var surgeonLastName = event.target.surgeon.value;
       var specialty = event.target.specialty.value;
       var medClass = event.target.medClass.value;
-      var exception = event.target.exception.value;
+      var rule = event.target.rule.value;
       var surgeonIDObject = Surgeons.findOne({lastName: surgeonLastName}, {name: 0});
-      var specialtyID = specialtyIDObject.specialtyID;
+      var specialtyID = surgeonIDObject.specialtyID;
 
       //insert a rule into the collection
-      Rules.insert({
+      Exceptions.insert({
         surgeonLastName: surgeonLastName,
         medClass: medClass,
         rule: rule,
@@ -165,7 +168,7 @@ if (Meteor.isClient) {
 
       //clear form
       event.target.specialty.value = "",
-
+      event.target.surgeon.value = "",
       event.target.medClass.value = "",
       event.target.rule.value = "";
 

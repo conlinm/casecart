@@ -4,12 +4,18 @@
         <h5>Perioperative Anticoagulation Preferences</h5>
         <hr>
         <!-- <h4>Preferences</h4> -->
-        <dl class="dl-horizontal">
-        {{#each rules}}
-        <dt>{{medClass}}</dt>
-        <dd>{{rule}}</dd>
-        {{/each}}
-        </dl>
+          <dl class="dl-horizontal">
+            {{#each rules}}
+              <dt>{{medClass}}</dt>
+              <dd>{{rule}}</dd>
+            {{/each}}
+          </dl>
         <h4>Exceptions</h4>
+          <dl class="dl-horizontal">
+            {{#each exceptions}}
+              <dt>Dr. {{surgeonLastName}} - {{medClass}}</dt>
+              <dd>{{rule}}</dd>
+            {{/each}}
+        </dl>
   </div>
 </template>
