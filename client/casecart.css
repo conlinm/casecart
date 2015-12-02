@@ -13,3 +13,21 @@ a:link {
 dt {
   background-color: yellow;
 }
+td:first-child {
+	text-align: right;
+	background-color: yellow;
+	padding: 2px;
+	font-weight: bold;
+	width: 80px;
+}
+td:nth-child(2){
+	text-align: right;
+	font-weight: bold;
+	background-color: yellow;
+	padding: 2px;
+	width: 100px;
+}
+table.table{
+	border-collapse: separate;
+	border-spacing: 10px 0px;
+}
